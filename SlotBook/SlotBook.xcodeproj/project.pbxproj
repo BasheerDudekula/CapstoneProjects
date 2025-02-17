@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844375722D61A3EC00A6C1E8 /* SlotBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375712D61A3EC00A6C1E8 /* SlotBookApp.swift */; };
+		844375742D61A3EC00A6C1E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375732D61A3EC00A6C1E8 /* ContentView.swift */; };
+		844375762D61A3EE00A6C1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844375752D61A3EE00A6C1E8 /* Assets.xcassets */; };
+		844375792D61A3EE00A6C1E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844375782D61A3EE00A6C1E8 /* Preview Assets.xcassets */; };
+		844375832D61A3EE00A6C1E8 /* SlotBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375822D61A3EE00A6C1E8 /* SlotBookTests.swift */; };
+		8443758D2D61A3EE00A6C1E8 /* SlotBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443758C2D61A3EE00A6C1E8 /* SlotBookUITests.swift */; };
+		8443758F2D61A3EE00A6C1E8 /* SlotBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443758E2D61A3EE00A6C1E8 /* SlotBookUITestsLaunchTests.swift */; };
+		8443759D2D61A43500A6C1E8 /* SlotBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8443759B2D61A43500A6C1E8 /* SlotBook.xcdatamodeld */; };
+		8443759F2D61A9E400A6C1E8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443759E2D61A9E400A6C1E8 /* PersistenceController.swift */; };
+		844375A12D61AAF100A6C1E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375A02D61AAF100A6C1E8 /* LoginView.swift */; };
+		844375A32D61ABE700A6C1E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375A22D61ABE700A6C1E8 /* RegisterView.swift */; };
+		844375A52D61ACD700A6C1E8 /* TechTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375A42D61ACD700A6C1E8 /* TechTrackView.swift */; };
+		844375A72D61AE0500A6C1E8 /* SlotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375A62D61AE0500A6C1E8 /* SlotListView.swift */; };
+		844375A92D61AE9000A6C1E8 /* SlotDasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375A82D61AE9000A6C1E8 /* SlotDasboardView.swift */; };
+		844375AB2D61AFBC00A6C1E8 /* AddSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375AA2D61AFBC00A6C1E8 /* AddSlotView.swift */; };
+		844375AD2D61B05C00A6C1E8 /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844375AC2D61B05C00A6C1E8 /* EditListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8443757F2D61A3EE00A6C1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844375662D61A3EC00A6C1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8443756D2D61A3EC00A6C1E8;
+			remoteInfo = SlotBook;
+		};
+		844375892D61A3EE00A6C1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844375662D61A3EC00A6C1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8443756D2D61A3EC00A6C1E8;
+			remoteInfo = SlotBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8443756E2D61A3EC00A6C1E8 /* SlotBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844375712D61A3EC00A6C1E8 /* SlotBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookApp.swift; sourceTree = "<group>"; };
+		844375732D61A3EC00A6C1E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		844375752D61A3EE00A6C1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844375782D61A3EE00A6C1E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8443757E2D61A3EE00A6C1E8 /* SlotBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844375822D61A3EE00A6C1E8 /* SlotBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookTests.swift; sourceTree = "<group>"; };
+		844375882D61A3EE00A6C1E8 /* SlotBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8443758C2D61A3EE00A6C1E8 /* SlotBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookUITests.swift; sourceTree = "<group>"; };
+		8443758E2D61A3EE00A6C1E8 /* SlotBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8443759C2D61A43500A6C1E8 /* SlotBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlotBook.xcdatamodel; sourceTree = "<group>"; };
+		8443759E2D61A9E400A6C1E8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		844375A02D61AAF100A6C1E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		844375A22D61ABE700A6C1E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		844375A42D61ACD700A6C1E8 /* TechTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTrackView.swift; sourceTree = "<group>"; };
+		844375A62D61AE0500A6C1E8 /* SlotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotListView.swift; sourceTree = "<group>"; };
+		844375A82D61AE9000A6C1E8 /* SlotDasboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotDasboardView.swift; sourceTree = "<group>"; };
+		844375AA2D61AFBC00A6C1E8 /* AddSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSlotView.swift; sourceTree = "<group>"; };
+		844375AC2D61B05C00A6C1E8 /* EditListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8443756B2D61A3EC00A6C1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443757B2D61A3EE00A6C1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844375852D61A3EE00A6C1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844375652D61A3EC00A6C1E8 = {
+			isa = PBXGroup;
+			children = (
+				844375702D61A3EC00A6C1E8 /* SlotBook */,
+				844375812D61A3EE00A6C1E8 /* SlotBookTests */,
+				8443758B2D61A3EE00A6C1E8 /* SlotBookUITests */,
+				8443756F2D61A3EC00A6C1E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8443756F2D61A3EC00A6C1E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8443756E2D61A3EC00A6C1E8 /* SlotBook.app */,
+				8443757E2D61A3EE00A6C1E8 /* SlotBookTests.xctest */,
+				844375882D61A3EE00A6C1E8 /* SlotBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844375702D61A3EC00A6C1E8 /* SlotBook */ = {
+			isa = PBXGroup;
+			children = (
+				844375712D61A3EC00A6C1E8 /* SlotBookApp.swift */,
+				844375732D61A3EC00A6C1E8 /* ContentView.swift */,
+				844375752D61A3EE00A6C1E8 /* Assets.xcassets */,
+				844375772D61A3EE00A6C1E8 /* Preview Content */,
+				8443759B2D61A43500A6C1E8 /* SlotBook.xcdatamodeld */,
+				8443759E2D61A9E400A6C1E8 /* PersistenceController.swift */,
+				844375A02D61AAF100A6C1E8 /* LoginView.swift */,
+				844375A22D61ABE700A6C1E8 /* RegisterView.swift */,
+				844375A42D61ACD700A6C1E8 /* TechTrackView.swift */,
+				844375A62D61AE0500A6C1E8 /* SlotListView.swift */,
+				844375A82D61AE9000A6C1E8 /* SlotDasboardView.swift */,
+				844375AA2D61AFBC00A6C1E8 /* AddSlotView.swift */,
+				844375AC2D61B05C00A6C1E8 /* EditListView.swift */,
+			);
+			path = SlotBook;
+			sourceTree = "<group>";
+		};
+		844375772D61A3EE00A6C1E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				844375782D61A3EE00A6C1E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		844375812D61A3EE00A6C1E8 /* SlotBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				844375822D61A3EE00A6C1E8 /* SlotBookTests.swift */,
+			);
+			path = SlotBookTests;
+			sourceTree = "<group>";
+		};
+		8443758B2D61A3EE00A6C1E8 /* SlotBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8443758C2D61A3EE00A6C1E8 /* SlotBookUITests.swift */,
+				8443758E2D61A3EE00A6C1E8 /* SlotBookUITestsLaunchTests.swift */,
+			);
+			path = SlotBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8443756D2D61A3EC00A6C1E8 /* SlotBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844375922D61A3EE00A6C1E8 /* Build configuration list for PBXNativeTarget "SlotBook" */;
+			buildPhases = (
+				8443756A2D61A3EC00A6C1E8 /* Sources */,
+				8443756B2D61A3EC00A6C1E8 /* Frameworks */,
+				8443756C2D61A3EC00A6C1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotBook;
+			productName = SlotBook;
+			productReference = 8443756E2D61A3EC00A6C1E8 /* SlotBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8443757D2D61A3EE00A6C1E8 /* SlotBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844375952D61A3EE00A6C1E8 /* Build configuration list for PBXNativeTarget "SlotBookTests" */;
+			buildPhases = (
+				8443757A2D61A3EE00A6C1E8 /* Sources */,
+				8443757B2D61A3EE00A6C1E8 /* Frameworks */,
+				8443757C2D61A3EE00A6C1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844375802D61A3EE00A6C1E8 /* PBXTargetDependency */,
+			);
+			name = SlotBookTests;
+			productName = SlotBookTests;
+			productReference = 8443757E2D61A3EE00A6C1E8 /* SlotBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844375872D61A3EE00A6C1E8 /* SlotBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844375982D61A3EE00A6C1E8 /* Build configuration list for PBXNativeTarget "SlotBookUITests" */;
+			buildPhases = (
+				844375842D61A3EE00A6C1E8 /* Sources */,
+				844375852D61A3EE00A6C1E8 /* Frameworks */,
+				844375862D61A3EE00A6C1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8443758A2D61A3EE00A6C1E8 /* PBXTargetDependency */,
+			);
+			name = SlotBookUITests;
+			productName = SlotBookUITests;
+			productReference = 844375882D61A3EE00A6C1E8 /* SlotBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844375662D61A3EC00A6C1E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8443756D2D61A3EC00A6C1E8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					8443757D2D61A3EE00A6C1E8 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8443756D2D61A3EC00A6C1E8;
+					};
+					844375872D61A3EE00A6C1E8 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8443756D2D61A3EC00A6C1E8;
+					};
+				};
+			};
+			buildConfigurationList = 844375692D61A3EC00A6C1E8 /* Build configuration list for PBXProject "SlotBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844375652D61A3EC00A6C1E8;
+			productRefGroup = 8443756F2D61A3EC00A6C1E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8443756D2D61A3EC00A6C1E8 /* SlotBook */,
+				8443757D2D61A3EE00A6C1E8 /* SlotBookTests */,
+				844375872D61A3EE00A6C1E8 /* SlotBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8443756C2D61A3EC00A6C1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844375792D61A3EE00A6C1E8 /* Preview Assets.xcassets in Resources */,
+				844375762D61A3EE00A6C1E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443757C2D61A3EE00A6C1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844375862D61A3EE00A6C1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8443756A2D61A3EC00A6C1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443759D2D61A43500A6C1E8 /* SlotBook.xcdatamodeld in Sources */,
+				844375A52D61ACD700A6C1E8 /* TechTrackView.swift in Sources */,
+				844375742D61A3EC00A6C1E8 /* ContentView.swift in Sources */,
+				844375722D61A3EC00A6C1E8 /* SlotBookApp.swift in Sources */,
+				844375A32D61ABE700A6C1E8 /* RegisterView.swift in Sources */,
+				844375AD2D61B05C00A6C1E8 /* EditListView.swift in Sources */,
+				844375A12D61AAF100A6C1E8 /* LoginView.swift in Sources */,
+				844375AB2D61AFBC00A6C1E8 /* AddSlotView.swift in Sources */,
+				844375A92D61AE9000A6C1E8 /* SlotDasboardView.swift in Sources */,
+				844375A72D61AE0500A6C1E8 /* SlotListView.swift in Sources */,
+				8443759F2D61A9E400A6C1E8 /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443757A2D61A3EE00A6C1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844375832D61A3EE00A6C1E8 /* SlotBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844375842D61A3EE00A6C1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443758F2D61A3EE00A6C1E8 /* SlotBookUITestsLaunchTests.swift in Sources */,
+				8443758D2D61A3EE00A6C1E8 /* SlotBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844375802D61A3EE00A6C1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8443756D2D61A3EC00A6C1E8 /* SlotBook */;
+			targetProxy = 8443757F2D61A3EE00A6C1E8 /* PBXContainerItemProxy */;
+		};
+		8443758A2D61A3EE00A6C1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8443756D2D61A3EC00A6C1E8 /* SlotBook */;
+			targetProxy = 844375892D61A3EE00A6C1E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		844375902D61A3EE00A6C1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844375912D61A3EE00A6C1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844375932D61A3EE00A6C1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlotBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844375942D61A3EE00A6C1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlotBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		844375962D61A3EE00A6C1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlotBook";
+			};
+			name = Debug;
+		};
+		844375972D61A3EE00A6C1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlotBook";
+			};
+			name = Release;
+		};
+		844375992D61A3EE00A6C1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlotBook;
+			};
+			name = Debug;
+		};
+		8443759A2D61A3EE00A6C1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.SlotBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlotBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844375692D61A3EC00A6C1E8 /* Build configuration list for PBXProject "SlotBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844375902D61A3EE00A6C1E8 /* Debug */,
+				844375912D61A3EE00A6C1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844375922D61A3EE00A6C1E8 /* Build configuration list for PBXNativeTarget "SlotBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844375932D61A3EE00A6C1E8 /* Debug */,
+				844375942D61A3EE00A6C1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844375952D61A3EE00A6C1E8 /* Build configuration list for PBXNativeTarget "SlotBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844375962D61A3EE00A6C1E8 /* Debug */,
+				844375972D61A3EE00A6C1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844375982D61A3EE00A6C1E8 /* Build configuration list for PBXNativeTarget "SlotBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844375992D61A3EE00A6C1E8 /* Debug */,
+				8443759A2D61A3EE00A6C1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8443759B2D61A43500A6C1E8 /* SlotBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8443759C2D61A43500A6C1E8 /* SlotBook.xcdatamodel */,
+			);
+			currentVersion = 8443759C2D61A43500A6C1E8 /* SlotBook.xcdatamodel */;
+			path = SlotBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 844375662D61A3EC00A6C1E8 /* Project object */;
+}
