@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/techlogo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnManageTracks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Tech Tracks" />
+
+    <Button
+        android:id="@+id/btnBookedSlots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Booked Slots" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+</LinearLayout>
